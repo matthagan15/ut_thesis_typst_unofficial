@@ -8,7 +8,7 @@
     title: "Filler Title",
     author: "Author Authorson",
     degree: [Doctor of Philosophy],
-    department: [Living],
+    department: [Based Living],
     dedication: "This thesis is dedicated to the single most important person.",
     quote_page: (
         attribution: "Abraham Lincoln",
