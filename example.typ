@@ -2,10 +2,13 @@
 
 #import "@preview/hydra:0.6.1": hydra
 
+// You can use parenthesis to put information in or surround it with square
+// brackets.
 #show: ut-thesis.with(
     title: "Filler Title",
-    author: "John Doe",
-    degree: "Doctor of Philosophy",
+    author: "Author Authorson",
+    degree: [Doctor of Philosophy],
+    department: [Living],
     dedication: "This thesis is dedicated to the single most important person.",
     quote_page: (
         attribution: "Abraham Lincoln",
@@ -22,11 +25,11 @@
     //         body: "Quote Two"
     //     ),
     // )
+    acknowledgements: [This thesis is for all my day ones who supported me.],
     abstract: [
         #lorem(200)
     ],
 )
-
 
 = Introduction
 Typst is a document generation software comparable to Latex. It is different by employing a simpler markdown inspired syntax and has a more powerful scripting language that powers it, as opposed to the custom macro based framework in Latex. I started using it due to the real-time rendering capabilities it provided compared to Overleaf, and what really made me stick with it was how easy I found it to be to create more complicated layouts and functions. I ended up writing my thesis for the University of Toronto in Typst and wanted to share the template I used that resulted in a document that was approved by the School of Graduate Studies (SGS). It is *not* officially sponsored by SGS as opposed to the Latex or Word templates.
